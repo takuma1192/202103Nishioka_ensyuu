@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+}
+
+.wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+}
+
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#firstview {
+  background-color: #fff;
+  line-height: 70px;
+}
+
+.header-logo {
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.catchcopy {
+  background: url(../img/mv.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catchcopy h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.news {
+  width: 950px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.news-section {
+  border: 1px #000 solid;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+
+.news-section a {
+  display: flex;
+}
+
+.news-item-link h3 {
+  padding-left: 15px;
+}
+
+.contact {
+  text-align: center;
+  line-height: 50px;
+  background-color: #f5f6f9;
+}
+
+.contact-wrap {
+  padding: 70px 0;
+}
+
+.contact-wrap a {
+  display: block;
+  width: 300px;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: #cd0224;
+  color: #fff;
+  margin-top: 30px;
+  
+}
+
+.contact-logo {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #222222;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-wrap {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+
+.footer-nav li::after {
+  content: "|";
+  padding: 0 6px;
+}
+
+.footer-nav li:last-child::after {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 3px;
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000000;
+  transition: 0.8s;
+  
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 5px;
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; 
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 35px; 
+}
+
+.header-nav {
+  display: none; 
+}
+
+.flex {
+  width: 100%;
+}
+
+.news {
+  width: 100%;
+}
+
+.news-section {
+  font-size: 13px;
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.contact-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contact-text {
+  line-height: 30px;
+}
+
+.footer-wrap {
+  width: 100%;
+}
+
+.footer-flex {
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-copy {
+  margin: 0 auto;
+}
+
+.footer-nav li::after {
+  content: none;
+}
+
+.footer-item {
+  margin: 10px 0;
+}
+
+.footer-nav li:last-child {
+  padding-top: 10px;
+}
+}

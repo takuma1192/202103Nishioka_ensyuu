@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+html {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.ptb-m {
+  padding: 80px 0;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+}
+
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+#firstview {
+  background-color: #fff;
+  line-height: 70px;
+}
+
+.header-logo {
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.catchcopy-wrap {
+  background: url(../img/mv.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  text-align: center;
+  position: relative;
+}
+
+.catchcopy { 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 100%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  
+}
+
+.catchcopy-sub {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  max-width: 100%;
+  transform: translate(-50%,-50%);
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.topcomment {
+  background-color: black;
+  color: #fff;
+}
+
+.topcomment-wrap {
+  margin: 0 auto;
+  width: 1090px;
+  padding: 80px 0;
+}
+
+.topcomment-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.topcomment-text {
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.top-service-ttl{
+  text-align: center;
+}
+
+.top-service-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.top-service-item{
+  width: 49%;
+  margin-top: 20px;
+  margin-right: calc(100% - (49% * 2));
+}
+
+.top-service-item:nth-child(2n){
+  margin-right: 0;
+}
+
+.top-service-item-ttl{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.top-service-item-description {
+  line-height: 25px;
+}
+
+.top-service-btn{
+  margin: 40px auto 0;
+}
+
+.news {
+  background-color: #222222;
+}
+
+.news-list {
+  width: 1090px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.news-logo h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.news-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-section {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.news-section a {
+  display: flex;
+}
+
+.news-item-link h3 {
+  padding-left: 15px;
+}
+
+.news-btn {
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.blog-title {
+  text-align: center;
+  padding: 80px 0 20px 0;
+  font-size: 30px;
+}
+
+.blog-list {
+  display: flex;
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.blog-bg img {
+  width: 95%;
+} 
+
+.blog-item p {
+  padding: 10px 0;
+}
+
+.blog-item h3 {
+  font-size: 18px;
+}
+
+.blog-btn {
+  display: block;
+  width: 280px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: #cd0224;
+  color: #fff;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.company-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.company-item-a {
+  background-color: #cd0224;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  width: 50%;
+  padding: 100px 0;
+}
+
+.company-item-b {
+  background-color: #222222;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  width: 50%;
+  padding: 100px 0;
+}
+
+.contact {
+  text-align: center;
+  line-height: 50px;
+  background-color: #f5f6f9;
+}
+
+.contact-wrap {
+  padding: 80px 0;
+}
+
+.contact-wrap a {
+  display: block;
+  width: 300px;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: #cd0224;
+  color: #fff;
+  margin-top: 30px;
+  
+}
+
+.contact-logo {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #222222;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-wrap {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+
+.footer-nav li::after {
+  content: "|";
+  padding: 0 6px;
+}
+
+.footer-nav li:last-child::after {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 3px;
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #000000;
+  transition: 0.8s;
+  
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 5px;
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; 
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 35px; 
+}
+
+.header-nav {
+  display: none; 
+}
+
+.flex {
+  width: 100%;
+}
+
+.catchcopy {
+  width: 80%;
+  line-height: 80px;
+}
+
+.catchcopy-sub {
+  width: 80%;
+  padding-top: 200px;
+  line-height: 30px;
+}
+
+.topcomment-wrap {
+  width: 85%;
+}
+
+.top-service {
+  width: 85%;
+}
+
+.top-service-ttl {
+  padding-bottom: 20px;
+}
+
+.top-service-list {
+  flex-wrap: wrap;
+}
+
+.top-service-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.news-list {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.news-section {
+  font-size: 13px;
+}
+
+.blog-wrap {
+  width: 100%;
+}
+
+.blog-list {
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blog-item {
+  width: 85%;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.blog-text {
+  padding-bottom: 5px;
+}
+
+.contact-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contact-text {
+  line-height: 30px;
+}
+
+.footer-wrap {
+  width: 100%;
+}
+
+.footer-flex {
+  flex-wrap: wrap;
+}
+
+.footer-list {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-copy {
+  margin: 0 auto;
+}
+
+.footer-nav li::after {
+  content: none;
+}
+
+.footer-item {
+  margin: 10px 0;
+}
+
+.footer-nav li:last-child {
+  padding-top: 10px;
+}
+
+}
